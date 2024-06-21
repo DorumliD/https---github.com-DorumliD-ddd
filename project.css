@@ -1,0 +1,45 @@
+body{
+    background-image: url(862843.jpg);
+    /* orqa fonga rasm qo'yish */
+    background-size: cover;
+    /* rasmni to'la chiqarish */
+}
+
+form{
+    width: 30%;
+    height: 430px;
+    background-color: blueviolet;
+    margin: 80px auto;
+    /* o'rtaga olib kelish  */
+    opacity: 70%;
+    /* shaffoflik  */
+    border-radius: 20px;
+    /* chetlarini yumaloq qiladi */
+    color: white;
+    text-align: center;
+    /* form ichidagi elementlarni o'rtaga olib keladi */
+    filter: blur(0.5px);
+}
+
+input{
+    width: 75%;
+    height: 28px;
+    border-radius: 20px;
+    /* chatlarini yumaloq */
+    border: none;
+    /* chegarani yo'q qilib qo'yadi */
+    outline: none;
+    /* input ustiga bosgandagi chegara */
+}
+
+a{
+    color: rgb(118, 238, 12);
+    font-weight: bold;
+    /* harf qalinligi */
+    text-decoration: none;
+}
+
+input[type="checkbox"]{
+    margin-left: -200px;
+    /* elementni chapga surish  */
+}

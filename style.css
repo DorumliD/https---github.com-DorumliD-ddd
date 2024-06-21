@@ -1,0 +1,49 @@
+/* 1. elementning o'ziga style attributi bilan berilgan style kuchliroq */
+/* 2. oxirgida berilgan style kuchliroq */
+/* 3. class bilan berilgan style kuchliroq */
+/* 4. class oldidan nuqta */
+/* 5. id oldidan # */
+/* 6. id classdan kuchliroq  */
+/* 7. !important - hammasidan kuchligi */
+
+/* tag nomi<class<id<!important<oxigisi */
+
+#hi{
+    background-color: red;
+    background-color: black;
+}
+
+.man{
+    background-color: blue;
+}
+
+
+body{
+    background-color: chartreuse !important;
+    background-color: yellow !important;
+    background-color: green;
+}
+
+.number{
+    background-color: blueviolet;
+}
+
+#password{
+    background-color: red;
+}
+
+input[type="reset"]{
+    width: 400px;
+}
+
+p{
+    color: blue;
+}
+
+p[class]{
+    color: red;
+}
+
+p[title]{
+    background-color: orangered;
+}
