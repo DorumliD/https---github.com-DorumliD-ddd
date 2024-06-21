@@ -43,3 +43,7 @@ input[type="checkbox"]{
     margin-left: -200px;
     /* elementni chapga surish  */
 }
+
+h2{
+    color: red;
+}
